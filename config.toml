@@ -4,7 +4,7 @@ description = "Introducing blockchain based digital advertising"
 theme = "batsite"
 enableGitInfo = true
 
-[frontmater]
+[frontmatter]
     date = ["date", "publishDate", "lastmod"]
     expiryDate = ["expiryDate"]
     lastmod = [":git", "lastmod", "date", "publishDate"]
