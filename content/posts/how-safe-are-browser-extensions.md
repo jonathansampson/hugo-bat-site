@@ -1,8 +1,8 @@
 ---
 title: "How Safe are Browser Extensions?"
 date: "2021-06-04"
+image: "adblocker.png"
 description: "How truly safe are browser extensions? Is it safe to use them?"
-draft: true
 ---
 Browser extensions are an integral part of many users’ browsers. But what do you really know about browser extensions? You certainly know of them: perhaps you use an extension to take notes, like Evernote, or an extension to manage passwords, like LastPass. But do you know how browser extensions work?
 
