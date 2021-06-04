@@ -1,5 +1,8 @@
 {{ define "main" }}
     <main>
+        <aside>
+            {{ .TableOfContents }}
+        </aside>
         <article> 
             <header>
                 <h1>{{ .Title }}</h1>
@@ -7,9 +10,6 @@
             <p>Last updated {{ .Page.Lastmod.Format "January 1, 2006" }}</p>
             {{ .Content }}
         </article>
-        <aside>
-            {{ .TableOfContents }}
-        </aside>
     </main>
     {{ partial "homepage/recent-articles.html" . }}
 {{ end }}
