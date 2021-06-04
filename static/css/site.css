@@ -14,9 +14,45 @@ body {
     font-family: Poppins;
 }
 
-.welcome {
+#welcome {
     color: white;
-    padding-top: 328px;
+    padding: 18em 2em 10em 2em;
+    text-align: center;
     background-size: cover;
     background-image: url("/images/welcome-background.png");
 }
+
+#hero {
+    display: flex;
+    padding: 2em 3em;
+    margin: -9em 3em 0;
+    background: #FFFFFF;
+    border-radius: 12px;
+    column-gap: 2em;
+    position: absolute;
+    box-shadow: 0 .25em .5em rgba(0, 0, 0, .1);
+}
+    #hero section {
+        flex: 1;
+    }
+
+#challenge {
+    padding-top: 15em;
+    padding-bottom: 2em;
+    background: #f1f1f1;
+}
+    #challenge h1,
+    #challenge h2 {
+        text-align: center;
+    }
+
+    #challenge .sections {
+        display: flex;
+        column-gap: 2em;
+    }
+
+    #challenge .sections section {
+        padding: 1em 2em;
+        background: #FFFFFF;
+        border-radius: 12px;
+    }
