@@ -1,6 +1,5 @@
 ---
 title: "How Safe are Browser Extensions?"
-date: 2020-06-12
 description: "How truly safe are browser extensions? Is it safe to use them?"
 draft: true
 ---

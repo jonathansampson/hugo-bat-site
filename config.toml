@@ -1,4 +1,11 @@
 languageCode = "en-us"
 title = "Basic Attention Token"
 description = "Introducing blockchain based digital advertising"
-theme = "ananke"
+theme = "batsite"
+enableGitInfo = true
+
+[frontmater]
+    date = ["date", "publishDate", "lastmod"]
+    expiryDate = ["expiryDate"]
+    lastmod = [":git", "lastmod", "date", "publishDate"]
+    publishDate = ["publishDate", "date"]
