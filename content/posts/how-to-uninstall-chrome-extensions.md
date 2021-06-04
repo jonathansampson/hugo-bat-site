@@ -1,5 +1,5 @@
 ---
-title: "Another Article"
+title: "How to uninstall Chrome extensions?"
 date: "2020-03-18"
 image: "adblocker.png"
 description: "More dummy text. The point is to fill up the area with copy. It's working!"

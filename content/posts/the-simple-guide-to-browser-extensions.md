@@ -1,7 +1,7 @@
 ---
-title: "One Final Article"
+title: "The Simple Guide to Browser Extensions (or A Beginners Guide...)"
 date: "2021-05-02"
-image: "adblocker.png"
+image: "private-browser.png"
 description: "What good is an article without an excerpt? How will I gauge interest?"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. 

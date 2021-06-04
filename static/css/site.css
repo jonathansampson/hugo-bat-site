@@ -88,9 +88,26 @@ body {
     display: flex;
     column-gap: 2em;
 }
-    #recent-articles section img {
-        max-width: 100%;
+    #recent-articles section {
+        flex: 1;
     }
+        #recent-articles section h1 {
+            font-size: 1em;
+        }
+        #recent-articles section img {
+            max-width: 100%;
+        }
+        #recent-articles section a {
+            border: 1px solid rgba(0, 0, 0, .15);
+            border-radius: 1.5em;
+            text-decoration: none;
+            padding: .5em;
+        }
+            #recent-articles section a::after {
+                content: "→";
+                display: inline-block;
+                margin-left: 1em;
+            }
 
 #how-it-works {
     padding: 18em 5em 5em 5em;
