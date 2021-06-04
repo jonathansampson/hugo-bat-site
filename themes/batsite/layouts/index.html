@@ -1,9 +1,11 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Description }}</p>
-    <button>Video</button>
-    <button>Get Brave</button>
-    <p>{{ .Params.from }}</p>
+    <div class="welcome">
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Description }}</p>
+        <button>Video</button>
+        <button>Get Brave</button>
+        <p>{{ .Params.from }}</p>
+    </div>
 
     {{ partial "homepage/hero.html" . }}
     {{ partial "homepage/the-challenge.html" . }}

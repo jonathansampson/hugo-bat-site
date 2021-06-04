@@ -1,3 +1,16 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    margin: 0;
+    padding: 0;
     background-color: red;
+}
+
+.welcome {
+    padding-top: 428px;
+    background-size: cover;
+    background-image: url("/images/welcome-background.png");
 }
