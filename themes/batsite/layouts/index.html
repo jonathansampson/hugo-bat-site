@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+    <button>Video</button>
+    <button>Get Brave</button>
+    <p>{{ .Params.from }}</p>
+
+    {{ partial "homepage/hero.html" . }}
+    {{ partial "homepage/the-challenge.html" . }}
+    {{ partial "homepage/brave-and-bat.html" . }}
+    {{ partial "homepage/recent-articles.html" . }}
+    {{ partial "homepage/how-it-works.html" . }}
+
+{{ end }}
