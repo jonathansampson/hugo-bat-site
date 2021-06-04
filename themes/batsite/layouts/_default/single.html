@@ -1,14 +1,15 @@
 {{ define "main" }}
-<main>
-    <article>
-        <header>
-            <h1>{{ .Title }}</h1>
-        </header>
-        <p>Last updated {{ .Page.Lastmod.Format "January 1, 2006" }}</p>
-        {{ .Content }}
-    </article>
-    <aside>
-        {{ .TableOfContents }}
-    </aside>
-</main>
+    <main>
+        <article>
+            <header>
+                <h1>{{ .Title }}</h1>
+            </header>
+            <p>Last updated {{ .Page.Lastmod.Format "January 1, 2006" }}</p>
+            {{ .Content }}
+        </article>
+        <aside>
+            {{ .TableOfContents }}
+        </aside>
+    </main>
+    {{ partial "homepage/recent-articles.html" . }}
 {{ end }}
